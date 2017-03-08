@@ -24,6 +24,11 @@
    
   When you load normally, there will be flicker on the loader. With async, this flicker is reduced to great extent.
   [Demo video of layoutinflation wint async](https://youtu.be/ZETNOieGZLA)
+  
+# Sample data:
+Inflating 100 layouts took 1004 milli seconds without async inflation and 557 milli seconds with it.
+
+Do try the poc to feel the difference.
  
     
 ## iOS

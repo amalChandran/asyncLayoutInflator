@@ -16,10 +16,10 @@
    
    
    ```markdown
-                LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                View view = inflater.inflate(R.layout.layout_dummy, null);
-                LinearLayout inflatedLayout = (LinearLayout) view.findViewById(R.id.layout_dummy);
-                parentLayout.addView(inflatedLayout);
+         LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+         View view = inflater.inflate(R.layout.layout_dummy, null);
+         LinearLayout inflatedLayout = (LinearLayout) view.findViewById(R.id.layout_dummy);
+         parentLayout.addView(inflatedLayout);
    ```
    
   When you load normally, there will be flicker on the loader. With async, this flicker is reduced to great extent.

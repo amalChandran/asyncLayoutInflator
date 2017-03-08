@@ -23,7 +23,8 @@
    ```
    
   When you load normally, there will be flicker on the loader. With async, this flicker is reduced to great extent.
-    
+  
+  https://youtu.be/ZETNOieGZLA
     
 ## iOS
  

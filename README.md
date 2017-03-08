@@ -22,4 +22,9 @@
                 parentLayout.addView(inflatedLayout);
    ```
    
-    When you load normally, there will be flicker on the loader. With async, this flicker is reduced to great extent.
+  When you load normally, there will be flicker on the loader. With async, this flicker is reduced to great extent.
+    
+    
+## iOS
+ 
+  For iOS take a look at https://github.com/facebook/AsyncDisplayKit .
